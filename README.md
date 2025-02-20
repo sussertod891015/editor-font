@@ -35,11 +35,21 @@ A simple command-line tool for customizing editor fonts. Supports both English a
 
 ## Usage
 
-1. Select an editor
-2. Choose operation type:
-   - Modify custom font
-   - Restore default font
-3. If modifying font, enter font names (separate multiple fonts with commas)
+1. Start the program:
+
+   ```bash
+   npm run start
+   ```
+
+2. Follow the prompts:
+   - Select the editor to modify (VSCode/Cursor/Trae)
+   - Choose operation type:
+     - Modify custom font
+     - Restore default font
+   - If modifying font, enter font names (separate multiple fonts with commas)
+   - Restart editor when prompted to apply changes
+
+> **Tip**: When setting both English and Chinese fonts, it's recommended to input them in the order of "English font, Chinese font", e.g., `JetBrains Mono, LXGW WenKai`
 
 ## Operation Process
 
