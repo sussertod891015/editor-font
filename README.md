@@ -4,6 +4,21 @@ English | [简体中文](README.zh.md)
 
 A simple command-line tool for customizing editor fonts. Supports both English and Chinese interfaces with automatic system language detection.
 
+## Preview
+
+### Default Font
+
+![Default Font](examples/before.en.png)
+
+### After Customization
+
+![Customized Font](examples/after.en.png)
+
+> Fonts used in example:
+>
+> - English: JetBrains Mono
+> - Chinese: LXGW WenKai
+
 > **Note**: Currently only supports Windows. macOS support coming soon.
 
 ## Features
@@ -50,6 +65,7 @@ A simple command-line tool for customizing editor fonts. Supports both English a
 - This tool currently only works on Windows systems
 - Due to inconsistent style inheritance in some editors, multiple element styles may need to be customized. We provide template files for each supported editor in the `templates` directory. Community contributions to improve these style templates and support more editor elements are highly appreciated.
 - After modifying fonts, you may see a warning message saying "Installation appears to be corrupt" when opening the editor. This is because the custom CSS modification affects VS Code's file integrity check (SHA-256 checksums). This warning is expected and **does not affect the editor's functionality** - you can safely ignore it or click "Don't Show Again".
+- **Important**: This tool modifies the editor interface fonts (like file tree, menus, titles, etc.). To change the font in the editor area (code area), you still need to manually modify the `Editor: Font Family` option in your editor settings.
 
 ## Language Support
 
