@@ -1,5 +1,7 @@
 # Editor Font Customizer
 
+English | [简体中文](README.zh.md)
+
 A simple command-line tool for customizing editor fonts. Supports both English and Chinese interfaces with automatic system language detection.
 
 > **Note**: Currently only supports Windows. macOS support coming soon.
