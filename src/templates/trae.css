@@ -1,0 +1,3 @@
+.monaco-editor, .onboarding-card *, .chat-input-and-todolist-wrapper * {
+  font-family: var(--custom-font-family) !important;
+} 
